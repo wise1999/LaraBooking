@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+[type='text'], [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
+    border: none !important;
+}
+
+.filepond--item {
+    width: calc(16.6666667% - 0.5em);
+}
